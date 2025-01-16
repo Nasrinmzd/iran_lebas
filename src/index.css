@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Iransans";
+  src: url("/public/fonts/IRANSansWeb_Medium.woff2") format("woff2"),
+    url("/public/fonts/IRANSansWeb_Medium.woff") format("woff");
+  font-style: normal;
+}
+
+@layer components {
+  .banner__img {
+    @apply absolute top-0 right-0 transition-all duration-300 ease-in-out cursor-pointer;
+  }
+  .banner__right-item:hover .banner__img {
+    @apply top-[30px] right-[63px];
+  }
+}
