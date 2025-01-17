@@ -212,6 +212,38 @@ function SvgComponents() {
           </filter>
         </defs>
       </symbol>
+      <symbol id="eye-icon" viewBox="0 0 21 21">
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          d="M13.633 10.5a3.13 3.13 0 0 1-3.133 3.133A3.13 3.13 0 0 1 7.368 10.5 3.13 3.13 0 0 1 10.5 7.368a3.13 3.13 0 0 1 3.133 3.132"
+        ></path>
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          d="M10.5 17.736c3.089 0 5.967-1.82 7.971-4.97.788-1.234.788-3.307 0-4.541-2.004-3.15-4.882-4.97-7.971-4.97s-5.968 1.82-7.971 4.97c-.788 1.234-.788 3.307 0 4.541 2.003 3.15 4.882 4.97 7.97 4.97"
+        ></path>
+      </symbol>
+      <symbol id="save-add-icon" viewBox="0 0 21 21">
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          d="M14 7.866v9.94c0 1.269-.91 1.803-2.021 1.19L8.54 17.08c-.367-.201-.963-.201-1.33 0l-3.439 1.916c-1.111.613-2.021.079-2.021-1.19v-9.94a2.73 2.73 0 0 1 2.721-2.721h6.808A2.73 2.73 0 0 1 14 7.866"
+        ></path>
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          d="M19.25 4.471v9.94c0 1.269-.91 1.803-2.021 1.19L14 13.8V7.866a2.73 2.73 0 0 0-2.721-2.721H7v-.674A2.73 2.73 0 0 1 9.721 1.75h6.808a2.73 2.73 0 0 1 2.721 2.721M6.125 10.5h3.5M7.875 12.25v-3.5"
+        ></path>
+      </symbol>
     </svg>
   );
 }
