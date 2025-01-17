@@ -1,4 +1,5 @@
 import BlogCart from "./BlogCart";
+import Button from "../../../ui/Button";
 
 function Blog() {
   return (
@@ -10,8 +11,10 @@ function Blog() {
         <BlogCart />
       </div>
       <div>
+        <div className="flex justify-center pt-[7px]">
+          <Button>مشاهده</Button>
+        </div>
       </div>
-      
     </section>
   );
 }

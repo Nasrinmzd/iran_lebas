@@ -1,6 +1,6 @@
 function BlogCart() {
   return (
-    <div className="flex items-center justify-around">
+    <div className="flex items-center justify-around pb-[27px]">
       <div className="w-[270px] h-[368px] bg-[#F4F4F4] rounded-lg shadow-[0_2px_2px_0_rgba(0,0,0,0.25)]">
         <div className="flex justify-center items-center pt-3">
           <img
