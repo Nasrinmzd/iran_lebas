@@ -9,7 +9,7 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px]">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
           انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
@@ -33,7 +33,7 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px]">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
           انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
@@ -57,8 +57,8 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px]">
-          انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+          شو لباس با تم سبز برای روز سبز در ایران
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
           نویسنده: رسولی
@@ -81,8 +81,8 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px]">
-          انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+          اتفاقی عجیب در هفته مد نیویورک!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
           نویسنده: رسولی
