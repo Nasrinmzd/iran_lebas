@@ -1,15 +1,15 @@
 function BlogCart() {
   return (
     <div className="flex items-center justify-around pb-[27px]">
-      <div className="w-[270px] h-[368px] bg-[#F4F4F4] rounded-lg shadow-[0_2px_2px_0_rgba(0,0,0,0.25)]">
+      <div className="w-[270px] bg-[#F4F4F4] rounded-lg shadow-[0_2px_2px_0_rgba(0,0,0,0.25)] flex flex-col">
         <div className="flex justify-center items-center pt-3">
           <img
             src="/images/blog-1.png"
             alt="Blog-image"
-            className="w-[250px] h-[230px]"
+            className="w-[250px] h-[230px] object-cover"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2 min-h-[40px] line-clamp-2">
           انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
@@ -30,10 +30,10 @@ function BlogCart() {
           <img
             src="/images/blog-2.png"
             alt="Blog-image"
-            className="w-[250px] h-[230px]"
+            className="w-[250px] h-[230px] object-cover"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2 min-h-[40px] line-clamp-2">
           انتخاب لباس ایرانی به عنوان بهترین لباس شو در دبی!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
@@ -57,7 +57,7 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2 min-h-[40px] line-clamp-2">
           شو لباس با تم سبز برای روز سبز در ایران
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
@@ -81,7 +81,7 @@ function BlogCart() {
             className="w-[250px] h-[230px]"
           />
         </div>
-        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2">
+        <p className="text-primary text-right font-bold text-sm pr-[14px] pt-2 min-h-[40px] line-clamp-2">
           اتفاقی عجیب در هفته مد نیویورک!
         </p>
         <p className="text-[#757575] text-right font-normal text-sm leading-6 pt-[6px] pr-[14px]">
