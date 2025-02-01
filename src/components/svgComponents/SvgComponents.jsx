@@ -244,6 +244,26 @@ function SvgComponents() {
           d="M19.25 4.471v9.94c0 1.269-.91 1.803-2.021 1.19L14 13.8V7.866a2.73 2.73 0 0 0-2.721-2.721H7v-.674A2.73 2.73 0 0 1 9.721 1.75h6.808a2.73 2.73 0 0 1 2.721 2.721M6.125 10.5h3.5M7.875 12.25v-3.5"
         ></path>
       </symbol>
+      <symbol id="arrow-left" viewBox="0 0 24 24">
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
+          d="M15 19.92 8.48 13.4c-.77-.77-.77-2.03 0-2.8L15 4.08"
+        ></path>
+      </symbol>
+      <symbol id="arrow-down">
+        <path
+          stroke="#313132"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
+          d="m19.92 8.95-6.52 6.52c-.77.77-2.03.77-2.8 0L4.08 8.95"
+        ></path>
+      </symbol>
     </svg>
   );
 }

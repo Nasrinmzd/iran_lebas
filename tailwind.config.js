@@ -9,7 +9,7 @@ export default {
     extend: {
       colors: {
         maincolorred: "#C1121F",
-        primary: "#1C1C1C ",
+        primary: "#1C1C1C",
         secondary: " #313132",
       },
       container: {
