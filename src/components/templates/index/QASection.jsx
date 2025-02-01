@@ -77,8 +77,8 @@ function QASection() {
   return (
     <section className="mx-[93px] mb-[150px]">
       <SectionTitle>سوالات متداول</SectionTitle>
-      <div className="h-[498px] flex justify-between">
-        <div className="w-[640px] h-[480px]">
+      <div className="min-h-[498px] flex justify-between">
+        <div className="w-[640px] h-[480px] overflow-y-auto">
           {faqData.map((category, index) => (
             <div key={category.id}>
               <button
