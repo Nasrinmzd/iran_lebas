@@ -246,7 +246,6 @@ function SvgComponents() {
       </symbol>
       <symbol id="arrow-left" viewBox="0 0 24 24">
         <path
-          stroke="#313132"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeMiterlimit="10"

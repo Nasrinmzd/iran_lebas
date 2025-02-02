@@ -78,7 +78,10 @@ function QASection() {
     <section className="mx-[93px] mb-[150px]">
       <SectionTitle>سوالات متداول</SectionTitle>
       <div className="min-h-[498px] flex justify-between">
-        <div style={{ direction: 'ltr' }} className="w-[700px] h-[480px] overflow-y-auto pr-5">
+        <div
+          style={{ direction: "ltr" }}
+          className="w-[700px] h-[480px] overflow-y-auto pr-5"
+        >
           {faqData.map((category, index) => (
             <div key={category.id}>
               <button
@@ -87,15 +90,21 @@ function QASection() {
                     activeCategory === category.id ? null : category.id
                   )
                 }
-                className={`w-full border-b border-primary flex justify-between pb-3 px-[18.95px] flex-row-reverse ${
+                className={`w-full border-primary flex justify-between pb-3 px-[18.95px] flex-row-reverse ${
                   index === 0 ? "pt-0" : "pt-[60px]"
-                }`}
+                } ${activeCategory === category.id ? "" : "border-b"}`}
               >
-                <span className="font-normal text-[18px]/[32px] text-secondary">
+                <span className="font-semibold text-[18px]/[32px] text-secondary">
                   {category.title}
                 </span>
-                <svg className="w-[24px] h-[24px] fill-none ">
-                  <use href={`${activeCategory === category.id ? "#arrow-down" : "#arrow-left"}`}></use>
+                <svg className="w-[24px] h-[24px] fill-none" stroke="#313132">
+                  <use
+                    href={`${
+                      activeCategory === category.id
+                        ? "#arrow-down"
+                        : "#arrow-left"
+                    }`}
+                  ></use>
                 </svg>
               </button>
               {activeCategory === category.id && (
@@ -103,10 +112,15 @@ function QASection() {
                   {category.questions.map((q) => (
                     <button
                       key={q.id}
-                      className={`flex ${activeQuestion === q.id ? "text-maincolorred" : ""}`}
+                      className={`flex flex-row-reverse justify-between w-full border-b border-primary pt-6 pb-3 `}
                       onClick={() => setActiveQuestion(q.id)}
                     >
+                      <span className={`font-normal text-[16px]/[32px] ${activeQuestion === q.id ? "text-maincolorred" : "text-secondary"}`}>
                       {q.question}
+                      </span>
+                      <svg className="w-[24px] h-[24px] fill-none" stroke={`${activeQuestion === q.id ? "#C1121F" : "#313132"}`}>
+                        <use href= "#arrow-left" ></use>
+                      </svg>
                     </button>
                   ))}
                 </div>
@@ -145,7 +159,9 @@ function QASection() {
                 </p>
               </>
             ) : (
-                <p className="font-medium text-3xl text-secondary mt-[200px]">لطفاً سوال خود را انتخاب کنید.</p>
+              <p className="font-medium text-3xl text-secondary mt-[200px]">
+                لطفاً سوال خود را انتخاب کنید.
+              </p>
             )}
           </div>
         </div>
