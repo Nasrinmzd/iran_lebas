@@ -78,7 +78,7 @@ function QASection() {
     <section className="mx-[93px] mb-[150px]">
       <SectionTitle>سوالات متداول</SectionTitle>
       <div className="min-h-[498px] flex justify-between">
-        <div className="w-[640px] h-[480px] overflow-y-auto">
+        <div style={{ direction: 'ltr' }} className="w-[700px] h-[480px] overflow-y-auto pr-5">
           {faqData.map((category, index) => (
             <div key={category.id}>
               <button
@@ -87,7 +87,7 @@ function QASection() {
                     activeCategory === category.id ? null : category.id
                   )
                 }
-                className={`w-full border-b border-primary flex justify-between pb-3 px-[18.95px] ${
+                className={`w-full border-b border-primary flex justify-between pb-3 px-[18.95px] flex-row-reverse ${
                   index === 0 ? "pt-0" : "pt-[60px]"
                 }`}
               >
@@ -99,7 +99,7 @@ function QASection() {
                 </svg>
               </button>
               {activeCategory === category.id && (
-                <div className="space-y-3 px-4 pt-4">
+                <div className="space-y-3 px-4 pt-4 flex flex-col items-end">
                   {category.questions.map((q) => (
                     <button
                       key={q.id}
