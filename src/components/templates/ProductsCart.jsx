@@ -1,4 +1,4 @@
-function ProductsCart() {
+function ProductsCart({title, img}) {
   return (
     <div className="w-[265px] h-[353px] flex justify-end items-end">
       <div className="w-[265px] h-[297px] bg-[url(/images/bgCart.png)] bg-cover">
@@ -6,8 +6,8 @@ function ProductsCart() {
           <div className="pr-[37.5px]">
             <img
               className="w-[190px] h-[239px] -mt-[60px]"
-              src="/images/product1.png"
-              alt=""
+              src={img}
+              alt={title}
             />
           </div>
           <div className="space-y-2 pt-2 pl-2">
@@ -17,7 +17,7 @@ function ProductsCart() {
           </div>
         </div>
         <div className="flex flex-col text-center font-bold text-[20px] leading-[30px]">
-          <span className="  text-primary">هودی طرح آب رنگ</span>
+          <span className="  text-primary">{title}</span>
           <span className="pt-[4px] text-secondary">
             220.000<span className="pr-2">تومان</span>
           </span>

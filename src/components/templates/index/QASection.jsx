@@ -77,7 +77,7 @@ function QASection() {
   return (
     <section className="mx-[93px] mb-[150px]">
       <SectionTitle>سوالات متداول</SectionTitle>
-      <div className="min-h-[498px] flex justify-between">
+      <div className="relative min-h-[498px] flex justify-between">
         <div
           style={{ direction: "ltr" }}
           className="w-[700px] h-[480px] overflow-y-auto pr-5"
