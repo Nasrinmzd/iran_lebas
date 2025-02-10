@@ -17,3 +17,28 @@
     @apply top-[30px] right-[63px];
   }
 }
+
+
+.swiper-container-custom .swiper-button-next,
+.swiper-container-custom .swiper-button-prev {
+  background-color: #F4F4F4;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  position: absolute;
+
+}
+.swiper-container-custom .swiper-button-next{
+  left: 300px !important;
+}
+.swiper-container-custom .swiper-button-prev{
+  right: 330px !important;
+}
+
+.swiper-container-custom .swiper-button-next::after,
+.swiper-container-custom .swiper-button-prev::after {
+  font-size: 18px;
+  color: #292D32;
+}
+

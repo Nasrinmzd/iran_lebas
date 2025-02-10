@@ -6,6 +6,7 @@ import Banner from "./components/templates/index/Banner";
 import Categories from "./components/templates/index/Categories";
 import QASection from "./components/templates/index/QASection";
 import SpecialOffers from "./components/templates/index/SpecialOffers";
+import UserComments from "./components/templates/index/UserComments";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Banner />
         <Categories />
+        <UserComments />
         <SpecialOffers />
         <QASection />
         <Blog />
