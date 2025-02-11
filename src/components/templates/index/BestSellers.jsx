@@ -3,7 +3,7 @@ import ProductsCart from "../ProductsCart";
 import SectionTitle from "../SectionTitle";
 
 function BestSellers() {
-  const bestSellerssData = [
+  const bestSellersData = [
     {
       id: 1,
       title: "هودی طرح آب رنگ",
@@ -41,7 +41,7 @@ function BestSellers() {
       <SectionTitle>پر فروش ترین ها</SectionTitle>
       <div className="flex items-center justify-center">
         <div className="w-[827px] h-[754px] flex flex-wrap justify-center items-center gap-2">
-          {bestSellerssData.map((product) => (
+          {bestSellersData.map((product) => (
             <ProductsCart
               key={product.id}
               title={product.title}
