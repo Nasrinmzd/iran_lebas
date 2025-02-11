@@ -2,8 +2,10 @@ import Footer from "./components/modules/footer/Footer";
 import Header from "./components/modules/header/Header";
 import SvgComponents from "./components/svgComponents/svgComponents";
 import Blog from "./components/templates/Blog/Blog";
+import AboutUs from "./components/templates/index/AboutUs";
 import Banner from "./components/templates/index/Banner";
 import BestSellers from "./components/templates/index/BestSellers";
+import CategoriCart from "./components/templates/index/CategoriCart";
 import Categories from "./components/templates/index/Categories";
 import QASection from "./components/templates/index/QASection";
 import SpecialDiscounts from "./components/templates/index/SpecialDiscounts";
@@ -17,7 +19,9 @@ function App() {
       <main>
         <Banner />
         <Categories />
+        <CategoriCart />
         <SpecialDiscounts />
+        <AboutUs />
         <BestSellers />
         <UserComments />
         <SpecialOffers />
