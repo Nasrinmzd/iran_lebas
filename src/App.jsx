@@ -1,6 +1,6 @@
 import Footer from "./components/modules/footer/Footer";
 import Header from "./components/modules/header/Header";
-import SvgComponents from "./components/svgComponents/svgComponents";
+import SvgComponents from "./components/svgComponents/SvgComponents";
 import Blog from "./components/templates/Blog/Blog";
 import AboutUs from "./components/templates/index/AboutUs";
 import Banner from "./components/templates/index/Banner";
